@@ -1,6 +1,6 @@
 import math        #import needed modules
 import wave
-
+import os
 
 def generate(frequency):
     bitrate = 44100  # number of frames per second/frameset.
@@ -19,3 +19,6 @@ def generate(frequency):
     f.writeframes(wavedata.encode())
     f.close()
     return str(frequency)+'.wav'
+
+def remove(filenames):
+    [os.remove(f) for f in filenames]
