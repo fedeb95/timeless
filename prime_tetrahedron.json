@@ -1,0 +1,18 @@
+[
+    {
+        "frequency":101,
+        "position":[10,10,10]
+    },
+    {
+        "frequency":199,
+        "position":[10,-10,-10]
+    },
+    {
+        "frequency":317,
+        "position":[-10,10,-10]
+    },
+    {
+        "frequency":443,
+        "position":[-10,-10,10]
+    }
+]
